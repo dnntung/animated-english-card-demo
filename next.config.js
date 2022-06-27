@@ -1,6 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+const path = require('path');
+const withTM = require('next-transpile-modules')([
+    '@esotericsoftware/spine-player',
+    '@esotericsoftware/spine-core',
+    '@esotericsoftware/spine-webgl',
+]);
 
-module.exports = nextConfig
+module.exports = withTM({
+    sassOptions: {
+        includePaths: [path.join(__dirname, 'styles')],
+    },
+});

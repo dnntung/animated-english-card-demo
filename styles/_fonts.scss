@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedBlackItalic.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedBlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedBlack.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedBold.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedBoldItalic.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedExtraboldItalic.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedExtraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedExtrabold.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedExtrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded Extralight Itali';
+    src: url('/fonts/ConfigRoundedExtralightItalic.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedExtralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedExtralight.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedExtralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedLight.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedItalic.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedLightItalic.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded Text';
+    src: url('/fonts/ConfigRoundedText.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedText.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedMedium.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedSemiboldItalic.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedSemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedSemibold.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedSemibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedMediumItalic.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedRegular.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded Text';
+    src: url('/fonts/ConfigRoundedTextItalic.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedTextItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier New';
+    src: url('/fonts/CourierNewPSMT.woff2') format('woff2'),
+        url('/fonts/CourierNewPSMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedThin.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('/fonts/ConfigRoundedThinItalic.woff2') format('woff2'),
+        url('/fonts/ConfigRoundedThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier New';
+    src: url('/fonts/CourierNewPS-BoldMT.woff2') format('woff2'),
+        url('/fonts/CourierNewPS-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier New';
+    src: url('/fonts/CourierNewPS-BoldItalicMT.woff2') format('woff2'),
+        url('/fonts/CourierNewPS-BoldItalicMT.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier New';
+    src: url('/fonts/CourierNewPS-ItalicMT.woff2') format('woff2'),
+        url('/fonts/CourierNewPS-ItalicMT.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AdobeMingStd';
+    src: url('/fonts/adobe-std-l.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
