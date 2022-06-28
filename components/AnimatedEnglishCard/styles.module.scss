@@ -15,6 +15,7 @@
     background-size: contain;
     position: relative;
     box-sizing: content-box;
+    overflow: hidden;
 
 
     .header {
@@ -24,7 +25,8 @@
         align-items: center;
         flex-direction: column;
         font-size: calc(280px / 3834px * $card-height);
-        padding: calc(281px / 3834px * $card-height);
+        padding: calc(250px / 3834px * $card-height);
+        padding-bottom: 0;
 
         .word {
             font-family: "Config Rounded";
@@ -63,7 +65,6 @@
         
         .animated-object-wrapper {
             flex-grow: 1;
-            overflow: hidden;
         }
 
         .translation {
@@ -71,7 +72,7 @@
             display: flex;
             gap: 10px;
             justify-content: center;
-            padding-bottom: calc(270px / 3834px * $card-height);
+            padding-bottom: calc(280px / 3834px * $card-height);
             font-family: "AdobeMingStd";
             font-weight: 300;
             line-height: 1;
