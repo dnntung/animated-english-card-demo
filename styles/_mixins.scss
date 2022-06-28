@@ -1,0 +1,108 @@
+@import "breakpoints";
+
+// Xtreme small devices
+@mixin xsm-down {
+    @media (max-width: #{$screen-xsm-min}) {
+        @content;
+    }
+}
+
+@mixin xsm {
+    @media (min-width: #{$screen-xsm-min}) {
+        @content;
+    }
+}
+
+@mixin msm{
+    @media (min-width: #{$screen-msm-min}){
+        @content;
+    }
+}
+
+@mixin msm-down{
+    @media (max-width: #{$screen-msm-min}){
+        @content;
+    }
+}
+
+// Small devices
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+}
+
+@mixin sm-down {
+    @media (max-width: #{$screen-sm-min}) {
+        @content;
+    }
+}
+
+// Medium devices
+@mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+}
+
+@mixin md-down {
+    @media (max-width: #{$screen-md-min}) {
+        @content;
+    }
+}
+
+// Large devices
+@mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+}
+
+@mixin lg-down {
+    @media (max-width: #{$screen-lg-min}) {
+        @content;
+    }
+}
+
+// Extra large devices
+@mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+}
+
+@mixin xl-down {
+    @media (max-width: #{$screen-xl-min}) {
+        @content;
+    }
+}
+
+@mixin xxl {
+    @media (min-width: #{$screen-xxl-min}) {
+        @content;
+    }
+}
+
+@mixin xxl-down {
+    @media (max-width: #{$screen-xxl-min}) {
+        @content;
+    }
+}
+
+@mixin xxxl-down {
+    @media (max-width: #{$screen-xxxl-min}) {
+        @content;
+    }
+}
+
+@mixin fhd {
+    @media (min-width: #{$screen-fhd-min}) {
+        @content;
+    }
+}
+
+@mixin fhd-down {
+    @media (max-width: #{$screen-fhd-min}) {
+        @content;
+    }
+}

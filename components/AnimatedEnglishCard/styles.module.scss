@@ -1,21 +1,30 @@
-.card {
-    $card-height: 800px;
+@import "../../styles/mixins";
 
-    aspect-ratio: 2216/3654;
-    border-radius: 1rem;
+.card {
+    $ratio: 2397/3834 ;
+    $card-width: 500px;
+    $card-width-sm: 343px;
+    @include msm-down {
+        $card-width: $card-width-sm;
+    }
+
+    $card-height: calc($card-width / $ratio);
+    
+    aspect-ratio: $ratio;
     overflow: hidden;
     color: #ff00a2;
     display: flex;
     flex-direction: column;
-    height: $card-height;
-    padding: calc(90px / 3834px * $card-height);
-    // background-image: url("/background.png");
+    width: $card-width;
+    padding: calc(90px / 3834px * $card-height) calc(96px / 2397px * $card-width);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 100% 100%;
     position: relative;
-    box-sizing: content-box;
+    // box-sizing: content-box;
     overflow: hidden;
+
+    
 
 
     .header {
@@ -25,8 +34,7 @@
         align-items: center;
         flex-direction: column;
         font-size: calc(280px / 3834px * $card-height);
-        padding: calc(250px / 3834px * $card-height);
-        padding-bottom: 0;
+        padding-top: calc(250px / 3834px * $card-height);
 
         .word {
             font-family: "Config Rounded";
