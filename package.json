@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "deploy": "pm2 start npm --name 'animated_english_card_demo' -- start",
-    "dev": "next dev",
+    "dev": "next dev  -p 7930",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 7930",
     "lint": "next lint"
   },
   "dependencies": {
