@@ -5,7 +5,7 @@
   "scripts": {
     "deploy": "pm2 start npm --name 'animated_english_card_demo' -- start",
     "dev": "next dev  -p 7930",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start -p 7930",
     "lint": "next lint"
   },
